@@ -1,0 +1,56 @@
+repos:
+  - repo_id: anthropics-skills
+    display_name: Anthropic Skills
+    github_owner_repo: anthropics/skills
+    creator: Anthropic
+    purpose: Repositorio oficial para demonstrar e distribuir skills padrao do ecossistema Claude.
+    artifacts: Skills oficiais de referencia (documentos, criacao de artefatos, produtividade tecnica), especificacao Agent Skills e template base para novos nichos.
+    notes: Inclui exemplos oficiais e skills de documentos usados como referencia.
+
+  - repo_id: antigravity-skills
+    display_name: Antigravity Awesome Skills
+    github_owner_repo: sickn33/antigravity-awesome-skills
+    creator: sickn33
+    purpose: Biblioteca massiva e instalavel de skills para varios agentes e CLIs.
+    artifacts: Catalogo amplo multi-nicho (engenharia, infraestrutura, dados, marketing, operacoes), com bundles e workflows para uso em varios agentes.
+    notes: Repositorio com maior volume de skills no conjunto atual.
+
+  - repo_id: bmad-method
+    display_name: BMAD Method
+    github_owner_repo: bmad-code-org/BMAD-METHOD
+    creator: BMad Code Org
+    purpose: Framework de desenvolvimento guiado por agentes com workflows estruturados.
+    artifacts: Framework orientado a metodo para planejamento, analise, arquitetura e execucao guiada por agentes (foco em processo e governanca tecnica).
+    notes: Forte foco em metodo e orquestracao de trabalho.
+
+  - repo_id: composio-skills
+    display_name: Awesome Claude Skills (Composio)
+    github_owner_repo: ComposioHQ/awesome-claude-skills
+    creator: ComposioHQ
+    purpose: Curadoria de skills praticas com enfase em automacoes e integracoes via apps.
+    artifacts: Skills de automacao e integracao com apps/servicos (CRM, comunicacao, PM, produtividade), com forte orientacao a fluxos operacionais.
+    notes: Alta cobertura de casos com integracao de ferramentas externas.
+
+  - repo_id: ruflo
+    display_name: Ruflo
+    github_owner_repo: ruvnet/ruflo
+    creator: ruvnet
+    purpose: Plataforma de orquestracao multiagente com CLI, memoria e componentes de swarm.
+    artifacts: Componentes de orquestracao multiagente, skills de apoio a agentes e arquitetura para swarms/coordenação em cenarios de engenharia avancada.
+    notes: Historicamente relacionado ao projeto claude-flow.
+
+  - repo_id: spec-kit
+    display_name: Spec Kit
+    github_owner_repo: github/spec-kit
+    creator: GitHub
+    purpose: Toolkit open source para desenvolvimento guiado por especificacao.
+    artifacts: Toolkit de desenvolvimento por especificacao (CLI, fases de trabalho, extensoes e presets), focado em processo de entrega e qualidade.
+    notes: Nao usa catalogo SKILL.md no formato dos demais repositorios.
+
+  - repo_id: wshobson-agents
+    display_name: Claude Code Workflows (wshobson/agents)
+    github_owner_repo: wshobson/agents
+    creator: wshobson
+    purpose: Marketplace de plugins focados para Claude Code com agentes, skills e workflows.
+    artifacts: Marketplace de plugins granulares com agentes e skills por dominio (engenharia, qualidade, operacoes, seguranca e produtividade de times).
+    notes: Estrutura orientada a plugins com carga modular.
