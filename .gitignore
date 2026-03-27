@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node (repos que usam npm)
+node_modules/
+package-lock.json
+
+# Python (repos que usam pip/uv)
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.bak
